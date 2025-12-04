@@ -4,7 +4,7 @@ object Main {
   def main(args: Array[String]): Unit = {
     (args) foreach (println)
 
-    val input = InputHandler.readInputFromFile("../data.txt")
+    val input = InputHandler.readInputFromFile("./data.txt")
 
     println("Solution 1:")
     println(Solution.solveFirst(input))

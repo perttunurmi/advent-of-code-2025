@@ -5,15 +5,15 @@ import Solution.solveSecond
 import InputHandler.readInputFromFile
 
 class SolutionTests extends munit.FunSuite {
-  val input = InputHandler.readInputFromFile("../test.txt")
+  val input = InputHandler.readInputFromFile("./example.txt")
 
   test("Example solution 1") {
-    val solution = ""
+    val solution = "0"
     assertEquals(solveFirst(input), solution)
   }
 
   test("Example solution 2") {
-    val solution = ""
+    val solution = "0"
     assertEquals(solveSecond(input), solution)
   }
 }
