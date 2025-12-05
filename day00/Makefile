@@ -10,3 +10,9 @@ compile:
 
 run: 
 	scala-cli run ./src/main.scala
+
+format:
+	scala-cli format
+
+repl:
+	scala-cli repl
