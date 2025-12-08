@@ -44,6 +44,7 @@
           default = pkgs.mkShellNoCC {
             name = "scala";
             packages = with pkgs; [
+              javaPackages.compiler.openjdk25
               scala
               scala-cli
               sbt
